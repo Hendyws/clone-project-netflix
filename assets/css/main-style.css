@@ -554,7 +554,7 @@ and (max-width: 567px) {
     margin-right: 12px;
   }
   .title-screen{
-    height: 100vh;
+    height: auto;
   }
   .title-screen h1{
     font-size: 2rem;
