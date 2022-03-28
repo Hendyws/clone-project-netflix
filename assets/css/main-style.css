@@ -541,7 +541,41 @@ video{
 
 /*/////////////////////////////////////////////////////////////////////*/
 
+/*MOBILE ORIENTATION*/
+
+@media (orientation: landscape) and (max-width: 567px) {
+  .top{
+    height: 60px;
+  }
+  .login-translation .select{
+    margin-right: 12px;
+  }
+  .title-screen{
+    height: auto;
+  }
+  .title-screen h1{
+    font-size: 2rem;
+    width: 100%;
+    margin-top: 0;
+  }
+  .title-screen h2{
+    font-size: 1.3rem;
+    margin-top: 10px;
+  }
+  .title-screen h3{
+    width: 90%;
+    margin-top: 10px;
+  }
+  .frequency-questions .sub-title{
+    font-size: 1rem;
+  }
+}
+
+
+/*/////////////////////////////////////////////////////////////////////*/
+
 /*MOBILE 375*/
+
 
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-dark{
